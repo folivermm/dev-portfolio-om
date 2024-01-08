@@ -11,7 +11,7 @@ export const Intro = () => {
                 <span className='hello'>Hello</span>
                 <span className='introText'>
                     I'm <span className='introName'>Oliver</span> <br /> Website Developer</span>
-                <p className='introPara'>I'm a Blah blah blah antes tenia un hamaca donde<br /> comeia empanadas todo los dias</p>
+                <p className='introPara'>I'm a Blah blah blah antes tenia un hamaca donde <br /> comeia empanadas todo los dias</p>
                 <Link>
                     <button className='btn'>
                         <img src={hire} alt='hireIcon' className='hireBtn' />

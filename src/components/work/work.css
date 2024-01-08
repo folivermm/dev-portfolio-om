@@ -1,0 +1,58 @@
+/* #work {
+  margin: 0 auto;
+  max-height: calc(100vw - 4rem);
+  width: 100vw;
+  max-width: 80rem;
+  text-align: center;
+  padding: 0 1rem;
+} */
+
+#work {
+  margin: 0 auto;
+  max-width: 80rem; /* Adjust the max-width as needed */
+  width: 90%; /* Set a percentage width for responsiveness */
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* work.css */
+.workImgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.workImg {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 1rem;
+}
+
+.workTitle {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+.workDesc {
+  font-weight: 300;
+  font-size: 1rem;
+  /* max-width: 45rem; */
+}
+
+.workBtn {
+  margin: 3rem 0;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  background: white;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 670px) {
+  .workImg {
+    width: 45%; /* Adjust this width as needed for proper alignment */
+    height: auto; /* Let the height adjust automatically */
+    margin: 5px; /* Add margin for spacing between images */
+  }
+}

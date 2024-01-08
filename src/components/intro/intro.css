@@ -1,12 +1,12 @@
 #intro {
-  height: calc(100vh - 4rem);
+  /* height: calc(100vh - 4rem); */
   width: 100vw;
   max-width: 75rem;
   margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
-
+/* 
 .bgImg {
   position: absolute;
   top: -1rem;
@@ -14,10 +14,10 @@
   z-index: -1;
   object-fit: cover;
   height: 80vh;
-}
+} */
 
 .introContent {
-  height: 200vh;
+  /* height: 200vh; */
   width: 200vh;
   padding: 2rem;
   font-size: 3rem;
@@ -26,6 +26,13 @@
   flex-direction: column;
   flex-content: center;
   /* align-items: center; */
+}
+
+.introPara {
+  white-space: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0.5rem 0; /* Add some margin for spacing between lines */
 }
 
 .hello {
@@ -57,14 +64,49 @@
   height: 1rem;
 }
 
-@media screen and (max-width: 480px) {
-  .bgImg {
-    right: -20vw;
+/* @media screen and (max-width: 700px) {
+  #intro {
+    min-height: 80vh; 
   }
+} */
+
+@media screen and (max-width: 500px) {
   .introContent {
-    font-size: 10vw;
+    padding: 1rem;
+    font-size: 40px;
   }
+  .introPara {
+    white-space: normal;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+  }
+
   .hello {
-    font-size: 4.5;
+    font-size: 1.5rem;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 409px) {
+  .introContent {
+    padding: 1rem;
+    font-size: 25px;
+  }
+  .introPara {
+    white-space: normal;
+    font-size: 10px;
+    line-height: 1.5;
+    margin: 0.5rem 0;
+  }
+
+  .hello {
+    font-size: 1rem;
+  }
+  .btn {
+    padding: 0.25rem 0.5rem; /* Further reduce the button padding */
+    font-size: 0.5rem; /* Further reduce the font size */
   }
 }
