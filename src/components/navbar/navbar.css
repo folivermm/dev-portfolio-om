@@ -24,13 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.8
-  ); /* Change to your desired background color */
-  /* Add any other styles for sticky navbar here */
+  background-color: rgba(2, 48, 71, 0.8);
 }
 
 .desktopMenuListItem {
@@ -39,9 +33,9 @@
 }
 
 .desktopMenuListItem:hover {
-  color: grey;
+  color: #b100e8;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid #6a00f4;
 }
 
 /* .desktopMenuImg {
@@ -58,7 +52,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.3rem 0.6rem;
+  padding: 0.5rem 0.6rem;
   border-radius: 3rem;
   cursor: pointer;
 }
@@ -66,14 +60,14 @@
 .hireBtn {
   object-fit: cover;
   margin: 0 0.25rem;
-  height: 1rem;
+  height: 0.5rem;
   cursor: pointer;
 }
 
 .active {
-  color: grey;
+  color: #b100e8;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid #6a00f4;
 }
 
 .navMenu {
@@ -95,6 +89,7 @@
   padding: 0.5rem 3rem;
   margin: 0.25rem;
   background: rgb(30, 30, 30);
+  cursor: pointer;
 }
 
 .mobmenu {
@@ -107,6 +102,12 @@
   .mobmenu {
     display: flex;
     justify-content: flex-end;
+    cursor: pointer;
+  }
+  .active {
+    color: #b100e8;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #6a00f4;
   }
   .desktopMenu {
     display: none;

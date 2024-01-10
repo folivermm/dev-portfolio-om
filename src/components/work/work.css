@@ -9,8 +9,8 @@
 
 #work {
   margin: 0 auto;
-  max-width: 80rem; /* Adjust the max-width as needed */
-  width: 90%; /* Set a percentage width for responsiveness */
+  max-width: 80rem;
+  width: 90%;
   text-align: center;
   padding: 0 1rem;
 }
@@ -22,21 +22,32 @@
   justify-content: center;
 }
 
-.workImg {
-  width: 300px;
-  height: auto;
+.workItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 10px;
-  border-radius: 1rem;
+}
+
+.workImg {
+  width: 20rem;
+  height: auto;
+  margin: 0;
+  /* border-radius: 1rem; */
 }
 
 .workTitle {
   margin: 1rem 0;
   font-size: 3rem;
 }
+.workItem p:nth-child(1) {
+  font-size: 0.7rem;
+  color: white;
+}
 
 .workDesc {
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 10px;
   /* max-width: 45rem; */
 }
 
@@ -49,10 +60,37 @@
   font-size: 1rem;
 }
 
-@media screen and (max-width: 670px) {
+.descriptionBox {
+  background-color: rgb(40, 40, 40);
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  color: white;
+  width: 20rem; /* Set the width to match the image width */
+}
+
+@media screen and (max-width: 791px) {
   .workImg {
-    width: 45%; /* Adjust this width as needed for proper alignment */
+    width: 100%; /* Adjust this width as needed for proper alignment */
     height: auto; /* Let the height adjust automatically */
-    margin: 5px; /* Add margin for spacing between images */
+    margin: 0; /* Add margin for spacing between images */
+  }
+  .descriptionBox {
+    width: 100%; /* Set the width to match the image width */
+    margin: 0; /* Add margin only on top and bottom to separate the description boxes */
+  }
+
+  .workImgs {
+    flex-direction: row; /* Change flex-direction to row to display 2 by 2 grid */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .workItem {
+    width: calc(
+      45% - 10px
+    ); /* Adjust the width to fit 2 items in a row with spacing */
+    align-items: center;
+    text-align: center;
   }
 }

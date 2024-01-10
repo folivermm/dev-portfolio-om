@@ -10,7 +10,7 @@
 }
 
 .skillTitle {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -19,9 +19,18 @@
 .skillDesc {
   font-size: 1rem;
   font-weight: 400;
-  margin-bottom: 2rem;
-  max-width: 51rem;
-  padding: 0 2rem;
+  margin-bottom: 8rem;
+  max-width: 65rem;
+  padding: 0 2.5rem;
+  text-align: left;
+  line-height: 2;
+}
+
+.stack {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 .skillBars {
