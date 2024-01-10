@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <footer className='footer'>
-            Copyright 2024 Oliver Magrane. All Rights Reserved
+            &copy; 2024 Oliver Magrane. All Rights Reserved.
         </footer>
     )
 }

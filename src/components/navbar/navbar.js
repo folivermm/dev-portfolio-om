@@ -22,9 +22,9 @@ const Navbar = () => {
             <img src={oImg} alt='o_logo' className='om_logo' />
             <div className='desktopMenu' >
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>Home</Link>
-                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-10} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>About</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>About</Link>
                 <Link activeClass='active' to='techStack' spy={true} smooth={true} offset={-75} duration={500} className='desktopMenuListItem'>Stack</Link>
-                <Link activeClass='active' to='work' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>Projects</Link>
+                <Link activeClass='active' to='work' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>Projects</Link>
             </div>
             <button className='desktopMenuBtn' onClick={() => {
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
