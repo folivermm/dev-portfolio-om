@@ -58,6 +58,7 @@
   border-radius: 2rem;
   background: white;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .descriptionBox {
@@ -67,6 +68,49 @@
   margin: 0;
   color: white;
   width: 20rem; /* Set the width to match the image width */
+}
+
+/* Add this CSS to your work.css file */
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.hoverOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.imageContainer:hover .hoverOverlay {
+  opacity: 1;
+}
+
+.sourceCodeButton,
+.liveSiteButton {
+  margin: 20px;
+  padding: 5px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.sourceCodeButton:hover,
+.liveSiteButton:hover {
+  background-color: #333;
+  color: white;
 }
 
 @media screen and (max-width: 791px) {
