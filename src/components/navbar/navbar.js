@@ -1,10 +1,10 @@
 import React from 'react'
 import './navbar.css'
-// import om_logo from '../../assets/om_logo.jpg'
 import oImg from '../../assets/ossnavImg.png'
 import { Link } from 'react-scroll'
 import { useState, useEffect } from 'react'
 import hmenu from '../../assets/hmenu.png'
+import message from '../../assets/msgl.png'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
@@ -29,7 +29,7 @@ const Navbar = () => {
             <button className='desktopMenuBtn' onClick={() => {
                 document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
             }}>
-                {/* <img src={message} alt='message icon' className='desktopMenuBtn' /> */}
+                <img src={message} alt='message icon' className='desktopMenuBtn' />
                 Contact Me
             </button>
             <img src={hmenu} alt='hamburger_menu' style={{

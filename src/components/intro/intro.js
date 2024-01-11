@@ -11,7 +11,7 @@ export const Intro = () => {
                 <span className='hello'>Hello,</span>
                 <span className='introText'>
                     I'm <span className='introName'>Oliver</span> <br />Software Developer</span>
-                <p className='introPara'>My specialties are web design/full-stack web development.</p>
+                <p className='introPara'>Web design/full-stack web development.</p>
                 <Link to='contact' offset={-100} smooth={true} duration={500}>
                     <button className='btn'>
                         Hire Me
