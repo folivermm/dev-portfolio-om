@@ -22,8 +22,8 @@ const Navbar = () => {
             <img src={oImg} alt='o_logo' className='om_logo' />
             <div className='desktopMenu' >
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>Home</Link>
-                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-150} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>About</Link>
-                <Link activeClass='active' to='techStack' spy={true} smooth={true} offset={-75} duration={500} className='desktopMenuListItem'>Stack</Link>
+                <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-150} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>About</Link>
+                <Link activeClass='active' to='stack' spy={true} smooth={true} offset={-75} duration={500} className='desktopMenuListItem'>Stack</Link>
                 <Link activeClass='active' to='work' spy={true} smooth={true} offset={-70} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>Projects</Link>
             </div>
             <button className='desktopMenuBtn' onClick={() => {
@@ -39,8 +39,8 @@ const Navbar = () => {
             }} className='mobmenu' onClick={() => setShowMenu(!showMenu)} />
             <div className='navMenu' style={{ display: showMenu ? 'flex' : 'none' }}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>Home</Link>
-                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>About</Link>
-                <Link activeClass='active' to='techStack' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>Stack</Link>
+                <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>About</Link>
+                <Link activeClass='active' to='stack' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>Stack</Link>
                 <Link activeClass='active' to='work' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>Projects</Link>
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(!showMenu)}>Contact</Link>
             </div>

@@ -10,7 +10,7 @@
 }
 
 .skillTitle {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -26,8 +26,8 @@
   line-height: 2;
 }
 
-.stack {
-  font-size: 3rem;
+.stack-title {
+  font-size: 2.5rem;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: -1rem;
@@ -47,6 +47,22 @@
   padding: 1.5rem 2rem;
   border-radius: 0.5rem;
   background: rgb(50, 50, 50);
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Adjust this margin as needed for spacing */
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  text-align: center;
 }
 
 /* .skillBarImg {
