@@ -10,7 +10,7 @@ export const Intro = () => {
             <div className='introContent'>
                 <span className='hello'>Hello,</span>
                 <span className='introText'>
-                    I'm <span className='introName'>Oliver</span> <br /> Website Developer</span>
+                    I'm <span className='introName'>Oliver</span> <br />Software Developer</span>
                 <p className='introPara'>My specialties are web design/full-stack web development.</p>
                 <Link to='contact' offset={-100} smooth={true} duration={500}>
                     <button className='btn'>
