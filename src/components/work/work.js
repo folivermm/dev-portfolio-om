@@ -34,19 +34,19 @@ const Work = () => {
                     {
                         src: flashcards,
                         alt: 'flashcards',
-                        description: 'Client- worked with rendering and state management using React ',
+                        description: 'Client- Worked with rendering and state management using React ',
                         sourceCodeUrl: 'https://github.com/folivermm/flashcards',
                     },
                     {
                         src: decoder,
                         alt: 'decoder',
-                        description: 'Client- built tricky algorithms as well as wrote unit tests with Mocha and Chai.',
+                        description: 'Client- Built tricky algorithms as well as wrote unit tests with Mocha and Chai',
                         sourceCodeUrl: 'https://github.com/folivermm/decoder-ring',
                     },
                     {
                         src: library,
                         alt: 'library',
-                        description: 'Client- worked with large datasets and built algorithms based on those datasets',
+                        description: 'Client- Worked with large datasets and built algorithms based on those datasets',
                         sourceCodeUrl: 'https://github.com/folivermm/library',
                     },
                     {
@@ -64,9 +64,9 @@ const Work = () => {
                             </div>
                             <img src={item.src} alt={item.alt} className="workImg" />
                             <div className="hoverOverlay">
-                                <a href={item.sourceCodeUrl} className="sourceCodeButton" target="_blank" rel="noopener noreferrer">Source Code</a>
+                                <a href={item.sourceCodeUrl} className="sourceCodeButton" target="_blank" rel="noopener noreferrer">Source code</a>
                                 {item.liveSiteUrl && (
-                                    <a href={item.liveSiteUrl} className="liveSiteButton" target="_blank" rel="noopener noreferrer">Live Site</a>
+                                    <a href={item.liveSiteUrl} className="liveSiteButton" target="_blank" rel="noopener noreferrer">Live site</a>
                                 )}
                             </div>
                         </div>
