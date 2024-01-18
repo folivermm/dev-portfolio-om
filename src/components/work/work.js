@@ -5,7 +5,7 @@ import movies from '../../assets/moviess.png';
 import flashcards from '../../assets/flashcardsImg.png';
 import decoder from '../../assets/decoderImg.png';
 import library from '../../assets/libraryImg.png';
-import homes from '../../assets/homesImg.png';
+import homes from '../../assets/homesNew.png';
 
 const Work = () => {
     const handleSeeMoreClick = () => {
