@@ -20,28 +20,28 @@ const Skills = () => {
                         <img src={reactImg} alt='reactImg' className='skillBarImg' />
                         <div className='skillBarText'>
                             <h2>React Developer</h2>
-                            <p>Launching mobile-first applications. Using CSS framworks like Bootstrap and Tailwind.</p>
+                            <p>Launching mobile-first applications. Using CSS frameworks like Bootstrap and Tailwind.</p>
                         </div>
                     </div>
                     <div className='skillBar'>
                         <img src={nodejs} alt='nodejsImg' className='skillBarImg' />
                         <div className='skillBarText'>
                             <h2>Backend NodeJs</h2>
-                            <p>Working with Node and Express framworks.  Building RESTful APIs and application and router level middleware. Creatting migrations and seeding data with Knex.</p>
+                            <p>Working with Node and Express frameworks.  Building RESTful APIs and application and router level middleware. Creating migrations and seeding data with Knex.</p>
                         </div>
                     </div>
                     <div className='skillBar'>
                         <img src={postgresql} alt='postgresql' className='skillBarImg' />
                         <div className='skillBarText'>
                             <h2>PostgreSQL</h2>
-                            <p>Working with SQL's Data defination langauge and data manipulation langaue on PostregreSQL database</p>
+                            <p>Working with SQL's data definition language and data manipulation language on PostgreSQL database.</p>
                         </div>
                     </div>
                     <div className='skillBar'>
                         <img src={devopsImg} alt='devopsImg' className='skillBarImg' />
                         <div className='skillBarText'>
                             <h2>DevOps</h2>
-                            <p>Client and back-end developer operations using Render and Vercel</p>
+                            <p>Client and back-end developer operations using Render and Vercel.</p>
                         </div>
                     </div>
                 </div>

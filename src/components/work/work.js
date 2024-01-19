@@ -19,7 +19,7 @@ const Work = () => {
                     {
                         src: movies,
                         alt: 'movies',
-                        description: 'BackEnd-built server and accessed data through a SQL database',
+                        description: 'BackEnd- Built server and accessed data through a SQL database.',
                         sourceCodeUrl: 'https://github.com/folivermm/movies-back-end',
                         liveSiteUrl: 'https://client-movies.onrender.com'
                     },
@@ -27,32 +27,32 @@ const Work = () => {
                     {
                         src: restaurant,
                         alt: 'restaurant',
-                        description: 'Full-stack web application allows you to manage reservations for a restaurant ',
+                        description: 'Full-stack web application allows you to manage reservations for a restaurant.',
                         sourceCodeUrl: 'https://github.com/folivermm/starter-restaurant-reservation',
                         liveSiteUrl: 'https://restaurant-reservation-frontend-l9hu.onrender.com'
                     },
                     {
                         src: flashcards,
                         alt: 'flashcards',
-                        description: 'Client- Worked with rendering and state management using React ',
+                        description: 'Client- Worked with rendering and state management using React.',
                         sourceCodeUrl: 'https://github.com/folivermm/flashcards',
                     },
                     {
                         src: decoder,
                         alt: 'decoder',
-                        description: 'Client- Built tricky algorithms as well as wrote unit tests with Mocha and Chai',
+                        description: 'Client- Built tricky algorithms as well as wrote unit tests with Mocha and Chai.',
                         sourceCodeUrl: 'https://github.com/folivermm/decoder-ring',
                     },
                     {
                         src: library,
                         alt: 'library',
-                        description: 'Client- Worked with large datasets and built algorithms based on those datasets',
+                        description: 'Client- Worked with large datasets and built algorithms based on those datasets.',
                         sourceCodeUrl: 'https://github.com/folivermm/library',
                     },
                     {
                         src: homes,
                         alt: 'homes',
-                        description: 'Full-stack web application listing homes and realtor information',
+                        description: 'Full-stack web application listing homes and realtor information.',
                         sourceCodeUrl: 'https://github.com/folivermm/homes',
                         liveSiteUrl: 'https://homes-client.onrender.com'
                     },
