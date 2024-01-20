@@ -120,6 +120,11 @@
     margin: 0; /* Add margin for spacing between images */
   }
 
+  .workItem p:nth-child(1) {
+    font-size: 1.5vw;
+    color: white;
+  }
+
   .descriptionBox {
     width: 100%;
   }
@@ -140,5 +145,13 @@
 
   .workTitle {
     font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .sourceCodeButton,
+  .liveSiteButton {
+    font-size: 0.4rem;
+    padding: 0.3rem 1rem;
   }
 }

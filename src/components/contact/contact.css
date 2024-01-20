@@ -62,3 +62,12 @@
   margin-top: 4rem;
   gap: 2rem;
 }
+
+@media screen and (max-width: 791px) {
+  .contactPageTitle {
+    font-size: 6vw;
+  }
+  .contactDesc {
+    font-size: 3vw;
+  }
+}
