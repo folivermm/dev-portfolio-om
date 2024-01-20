@@ -119,9 +119,9 @@
     height: auto; /* Let the height adjust automatically */
     margin: 0; /* Add margin for spacing between images */
   }
+
   .descriptionBox {
-    width: 100%; /* Set the width to match the image width */
-    margin: 0; /* Add margin only on top and bottom to separate the description boxes */
+    width: 100%;
   }
 
   .workImgs {
@@ -136,5 +136,9 @@
     ); /* Adjust the width to fit 2 items in a row with spacing */
     align-items: center;
     text-align: center;
+  }
+
+  .workTitle {
+    font-size: 6vw;
   }
 }

@@ -54,7 +54,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 20px; /* Adjust this margin as needed for spacing */
+  /* margin-bottom: 20px;  */
 }
 
 .tech-stack {
@@ -99,8 +99,20 @@
   .skillBarText p {
     font-size: 2vw;
   }
+  .skillBarText h2 {
+    font-size: 3vw;
+  }
+  .skillDesc {
+    font-size: 2.5vw;
+  }
+  .skillTitle {
+    font-size: 6vw;
+  }
+  .stack-title {
+    font-size: 6vw;
+  }
 }
-
+/* 
 @media screen and (max-width: 480px) {
   .skillBarText p {
     font-size: 3vw;
@@ -112,4 +124,4 @@
   .skillBarText h2 {
     font-size: 5vw;
   }
-}
+} */
