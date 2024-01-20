@@ -19,7 +19,12 @@ const Navbar = () => {
     });
     return (
         <nav className={`navbar ${sticky ? 'sticky' : ''}`}>
-            <img src={oImg} alt='o_logo' className='om_logo' />
+            <img
+                src={oImg}
+                alt='o_logo'
+                className='o_logo'
+                style={{ width: '3rem', height: '3rem', }}
+            />
             <div className='desktopMenu' >
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>Home</Link>
                 <Link activeClass='active' to='aboutSection' spy={true} smooth={true} offset={-150} duration={500} className='desktopMenuListItem' onClick={() => setShowMenu(false)}>About</Link>
