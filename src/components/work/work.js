@@ -36,12 +36,14 @@ const Work = () => {
                         alt: 'flashcards',
                         description: 'Client- Worked with rendering and state management using React.',
                         sourceCodeUrl: 'https://github.com/folivermm/flashcards',
+                        liveSiteUrl: 'https://client-flashcards.onrender.com'
                     },
                     {
                         src: decoder,
                         alt: 'decoder',
                         description: 'Client- Built tricky algorithms as well as wrote unit tests with Mocha and Chai.',
                         sourceCodeUrl: 'https://github.com/folivermm/decoder-ring',
+                        liveSiteUrl: 'https://folivermm.github.io/decoder-ring/'
                     },
                     {
                         src: library,
