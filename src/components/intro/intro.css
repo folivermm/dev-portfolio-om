@@ -13,6 +13,7 @@
   /* margin-bottom: 1rem; */
   display: flex;
   flex-direction: flex-end;
+  margin-left: 5rem;
 }
 
 .introContent {
@@ -27,6 +28,20 @@
   /* align-items: center; */
   margin-left: 7rem;
   margin-top: 6rem;
+}
+.introText {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.introRole {
+  font-weight: 700;
+}
+
+.developer,
+.firstName,
+.lastName {
+  display: block;
 }
 
 .hello {
@@ -98,13 +113,19 @@
   .bgImg {
     display: none;
   }
+  .introContent {
+    margin-left: -1rem;
+  }
+  .introText {
+    font-size: 2.5rem; /* Adjust the font size for smaller screens */
+  }
 }
 
 @media screen and (max-width: 500px) {
   .introContent {
     padding: 1rem;
     font-size: 2.5rem;
-    margin-left: 4rem;
+    margin-left: -1rem;
     margin-bottom: -30rem;
   }
   .introPara {
@@ -113,10 +134,13 @@
     line-height: 1.5;
     margin: 0.5rem 0;
   }
-
-  .hello {
-    font-size: 1.25rem;
+  .introText {
+    font-size: 2.5rem; /* Adjust the font size for smaller screens */
   }
+
+  /* .hello {
+    font-size: 1.25rem;
+  } */
   .btn {
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
@@ -134,9 +158,9 @@
     margin: 0.5rem 0;
   }
 
-  .hello {
+  /* .hello {
     font-size: 1rem;
-  }
+  } */
   .btn {
     padding: 0.25rem 0.5rem;
     font-size: 0.5rem;
