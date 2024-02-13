@@ -9,10 +9,10 @@ export const Intro = () => {
         <section id='intro'>
             <div className='introContent'>
                 {/* <span className='hello'>Hello,</span> */}
-                <span className='introText'>
+                <div className='introText'>
                     <span className='introName'>Oliver Magrane</span>
-                    <br />
-                    Software Developer</span>
+                    <span className='introRole'>Software Developer</span>
+                </div>
                 <p className='introPara'>Web design/full-stack web development.</p>
                 <Link to='contact' offset={-100} smooth={true} duration={500}>
                     <button className='btn'>
